@@ -1,17 +1,22 @@
 * * *
-
 # READ.md Template #
 
-Simple template for .md files such as READ.me and gists.
+<p align="center">
+<img alt="Logo" src="assets/banner.png" style="width:95%; height:120px;">
+</p>
+
+
+##### Simple template for .md files such as READ.me and gists. #####
 
 One Paragraph of project description goes here
+
 * * * 
 
-### Getting Started ###
+#### Getting Started ####
 
 Instructions to get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### Prerequisites ###
+#### Prerequisites ####
 
 What things you need to install the software and how to install them
 
@@ -19,7 +24,7 @@ What things you need to install the software and how to install them
 Give examples
 ```
 
-### Installing
+#### Installing ####
 
 A step by step series of examples that tell you how to get a development env running
 
@@ -37,7 +42,7 @@ until finished
 
 End with an example of getting some data out of the system or using it for a little demo
 
-### Running the tests ###
+#### Running the tests ####
 
 Explain how to run the automated tests for this system
 
@@ -47,7 +52,7 @@ Explain what these tests test and why
 Give an example
 ```
 
-### Deployment ###
+#### Deployment ####
 
 Add additional notes about how to deploy this on a live system
 
