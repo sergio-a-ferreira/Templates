@@ -5,12 +5,15 @@
 # \__ \ |  _| |  __/ | |    | | | | |  __/ | |_ 
 # |___/ |_|    \___| |_|    |_| |_|  \___|  \__|
 # 
-# Name       : bash_template.sh
-# Version    : v0.0
-# Description: bash script template
-# Arguments  : describe arguments here
-# Returns    : describe expected return and possible errors
-# Notes      : additional notes like dependencies, bugs, todo's and fixes
+# Name        : bash_template.sh
+# Version     : v0.0
+# Description : bash script template
+# Arguments   : describe arguments here
+# Input Files : list / describe inputs
+# Output Files: list / describe outputs
+# Returns     : describe expected return and possible errors
+# Requires    : list requirements
+# Notes       : additional notes like dependencies, bugs, todo's and fixes
 #
 # =============================================================================
 # - Functions: ----------------------------------------------------------------
@@ -96,9 +99,13 @@ main(){
 if [ "${0}" != "bash" ]; then
 	# run script
 	main "${@}"
+	return $?
 else
-	# source file; needed unset variables and functions
-	unset main	
+	# source file; if needed unset variables and functions
+	unset main
+	#echo "Warning: this script is not aimed to be sourced!!" 1>&2
+	#echo "Please run:    sh install.sh" 1>&2
+	#return 128
 fi
 
 
